@@ -113,29 +113,69 @@ float alphaUnfocus;
 
 /* Terminal colors (16 first used in escape sequence) */
 static const char *colorname[] = {
-	"#282828", /* hard contrast: #1d2021 / soft contrast: #32302f */
-	"#cc241d",
-	"#98971a",
-	"#d79921",
-	"#458588",
-	"#b16286",
-	"#689d6a",
-	"#a89984",
-	"#928374",
-	"#fb4934",
-	"#b8bb26",
-	"#fabd2f",
-	"#83a598",
-	"#d3869b",
-	"#8ec07c",
-	"#ebdbb2",
+	"#272C36", /* hard contrast: #1d2021 / soft contrast: #32302f */
+	"#BF616A",
+	"#A3BE8C",
+	"#EBCB8B",
+	"#495B6D",
+	"#B48EAD",
+	"#4D6D76",
+	"#D2D4D8",
+	"#2F3542",
+	"#BF616A",
+	"#A3BE8C",
+	"#EBCB8B",
+	"#495b6d",
+	"#B48EAD",
+	"#4D6565",
+	"#D7D9DB",
 	[255] = 0,
 	/* more colors can be added after 255 to use with DefaultXX */
 	"#add8e6", /* 256 -> cursor */
 	"#555555", /* 257 -> rev cursor*/
-	"#282828", /* 258 -> bg */
-	"#ebdbb2", /* 259 -> fg */
+	"#0F1115", /* 258 -> bg */
+	"#BFC4CC", /* 259 -> fg */
 };
+/* *.color0: nord1 */
+/* *.color1: nord11 */
+/* *.color2: nord14 */
+/* *.color3: nord13 */
+/* *.color4: nord9 */
+/* *.color5: nord15 */
+/* *.color6: nord8 */
+/* *.color7: nord5 */
+/* *.color8: nord3 */
+/* *.color9: nord11 */
+/* *.color10: nord14 */
+/* *.color11: nord13 */
+/* *.color12: nord9 */
+/* *.color13: nord15 */
+/* *.color14: nord7 */
+/* *.color15: nord6 */
+
+/* *.foreground:   nord4 */
+/* *.background:   nord0 */
+/* *.cursorColor:  nord4 */
+/* *fading: 35 */
+/* *fadeColor: nord3 */
+
+
+/* #define nord0 #0F1115 */
+/* #define nord1 #272C36 */
+/* #define nord2 #262C36 */
+/* #define nord3 #2F3542 */
+/* #define nord4 #BFC4CC */
+/* #define nord5 #D2D4D8 */
+/* #define nord6 #D7D9DB */
+/* #define nord7 #4D6565 */
+/* #define nord8 #4D6D76 */
+/* #define nord9 #495b6d */
+/* #define nord10 #5E81AC */
+/* #define nord11 #BF616A */
+/* #define nord12 #D08770 */
+/* #define nord13 #EBCB8B */
+/* #define nord14 #A3BE8C */
+/* #define nord15 #B48EAD */
 
 
 /*
@@ -555,3 +595,4 @@ static char ascii_printable[] =
 	" !\"#$%&'()*+,-./0123456789:;<=>?"
 	"@ABCDEFGHIJKLMNOPQRSTUVWXYZ[\\]^_"
 	"`abcdefghijklmnopqrstuvwxyz{|}~";
+
