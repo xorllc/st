@@ -113,30 +113,35 @@ float alphaUnfocus;
 
 /* Terminal colors (16 first used in escape sequence) */
 static const char *colorname[] = {
-	"#282828", /* hard contrast: #1d2021 / soft contrast: #32302f */
-	"#cc241d",
-	"#98971a",
-	"#d79921",
-	"#458588",
-	"#b16286",
-	"#689d6a",
-	"#a89984",
-	"#928374",
-	"#fb4934",
-	"#b8bb26",
-	"#fabd2f",
-	"#83a598",
-	"#d3869b",
-	"#8ec07c",
-	"#ebdbb2",
+
+/* 8 normal colors */
+	"#737a8a", /* black   */
+	"#ed3e53", /* red     */
+	"#8cd63c", /* green   */
+	"#adbd59", /* yellow  */
+	"#589ab0", /* blue    */
+	"#c27c59", /* magenta */
+	"#95c1c0", /* cyan    */
+	"#cde1e8", /* white   */
+
+/* 8 bright colors */
+	"#636a7a", /* black   */
+	"#e76373", /* red     */
+	"#99cd61", /* green   */
+	"#b1ba82", /* yellow  */
+	"#7fa4b0", /* blue    */
+	"#c27c59", /* magenta */
+	"#8db9b8", /* cyan    */
+	"#d5d9e0", /* white   */
+
 	[255] = 0,
+
 	/* more colors can be added after 255 to use with DefaultXX */
 	"#add8e6", /* 256 -> cursor */
 	"#555555", /* 257 -> rev cursor*/
-	"#282828", /* 258 -> bg */
-	"#ebdbb2", /* 259 -> fg */
+	"#000000", /* 258 -> bg */
+	"#BFC4CC", /* 259 -> fg */
 };
-
 
 /*
  * Default colors (colorname index)
