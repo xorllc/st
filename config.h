@@ -114,25 +114,22 @@ float alphaUnfocus;
 /* Terminal colors (16 first used in escape sequence) */
 static const char *colorname[] = {
 
-/* 8 normal colors */
-	"#737a8a", /* black   */
-	"#cf2338", /* red     */
-	"#8cd63c", /* green   */
-	"#adbd59", /* yellow  */
-	"#589ab0", /* blue    */
-	"#c26536", /* magenta */
-	"#95c1c0", /* cyan    */
-	"#d6d6d6", /* white   */
-
-/* 8 bright colors */
-	"#636a7a", /* black   */
-	"#e8354b", /* red     */
-	"#80ad50", /* green   */
-	"#d1d42f", /* yellow  */
-	"#7fa4b0", /* blue    */
-	"#c26536", /* magenta */
-	"#8db9b8", /* cyan    */
-	"#d6d6d6", /* white   */
+  "#485867", /* base00 */
+  "#b38686", /* base08 */
+  "#87b386", /* base0B */
+  "#aab386", /* base0A */
+  "#868cb3", /* base0D */
+  "#b386b2", /* base0E */
+  "#86b3b3", /* base0C */
+  "#b0c5c8", /* base05 */
+  "#8299a1", /* base03 */
+  "#d8bba2", /* base09 */
+  "#5a6d7a", /* base01 */
+  "#6d828e", /* base02 */
+  "#98afb5", /* base04 */
+  "#c9dbdc", /* base06 */
+  "#b39f9f", /* base0F */
+  "#e3efef", /* base07 */
 
 	[255] = 0,
 
@@ -148,10 +145,10 @@ static const char *colorname[] = {
  * Default colors (colorname index)
  * foreground, background, cursor, reverse cursor
  */
-unsigned int defaultfg = 259;
-unsigned int defaultbg = 258;
-unsigned int defaultcs = 256;
-unsigned int defaultrcs = 257;
+unsigned int defaultfg = 7;
+unsigned int defaultbg = 0;
+unsigned int defaultcs = 13;
+unsigned int defaultrcs = 0;
 unsigned int background = 258;
 
 /*
