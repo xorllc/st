@@ -114,22 +114,22 @@ float alphaUnfocus;
 /* Terminal colors (16 first used in escape sequence) */
 static const char *colorname[] = {
 
-  "#485867", /* base00 */
-  "#b38686", /* base08 */
-  "#87b386", /* base0B */
-  "#aab386", /* base0A */
-  "#868cb3", /* base0D */
-  "#b386b2", /* base0E */
-  "#86b3b3", /* base0C */
-  "#b0c5c8", /* base05 */
-  "#8299a1", /* base03 */
-  "#d8bba2", /* base09 */
-  "#5a6d7a", /* base01 */
-  "#6d828e", /* base02 */
-  "#98afb5", /* base04 */
-  "#c9dbdc", /* base06 */
-  "#b39f9f", /* base0F */
-  "#e3efef", /* base07 */
+  "#282c34", /* base00 */
+  "#e06c75", /* base08 */
+  "#98c379", /* base0B */
+  "#e5c07b", /* base0A */
+  "#61afef", /* base0D */
+  "#c678dd", /* base0E */
+  "#56b6c2", /* base0C */
+  "#abb2bf", /* base05 */
+  "#545862", /* base03 */
+  "#d19a66", /* base09 */
+  "#353b45", /* base01 */
+  "#3e4451", /* base02 */
+  "#565c64", /* base04 */
+  "#b6bdca", /* base06 */
+  "#be5046", /* base0F */
+  "#c8ccd4", /* base07 */
 
 	[255] = 0,
 
