@@ -121,13 +121,12 @@ static const char *colorname[] = {
   "#61afef", /* base0D */
   "#c96d6d", /* base0E */
   "#5274a1", /* base0C */
-  /* "#569ec2", /1* base0C *1/ */
-  "#969ca8", /* base05, filenames */
+  "#C4C4C4", /* base05, filenames */
   "#545862", /* base03 */
-  "#d19a66", /* base09 */
+  "#BD834D", /* base09 */
   "#a53b45", /* base01 */
   "#3e4451", /* base02 */
-  "#484e54", /* base04, folder names */
+  "#666666", /* base04, folder names, hostname, remote in git. */
   "#b6bdca", /* base06 */
   "#be5046", /* base0F */
   "#c8ccd4", /* base07 */
