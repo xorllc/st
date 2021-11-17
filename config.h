@@ -115,7 +115,7 @@ float alphaUnfocus;
 static const char *colorname[] = {
 
   "#282c34", /* base00 */
-  "#e06c75", /* base08 */
+  "#a53b45", /* base08 */
   "#98c379", /* base0B */
   "#e5c07b", /* base0A */
   "#61afef", /* base0D */
