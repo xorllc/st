@@ -5,8 +5,10 @@
  *
  * font: see http://freedesktop.org/software/fontconfig/fontconfig-user.html
  */
-static char *font = "mono:pixelsize=12:antialias=true:autohint=true";
-static char *font2[] = { "NotoColorEmoji:pixelsize=10:antialias=true:autohint=true" };
+/* static char *font = "mono:pixelsize=12:antialias=true:autohint=true"; */
+/* static char *font2[] = { "NotoColorEmoji:pixelsize=10:antialias=true:autohint=true" }; */
+static char *font = "mono:pixelsize=18:antialias=true:autohint=true";
+static char *font2[] = { "JoyPixels:pixelsize=18:antialias=true:autohint=true" };
 static int borderpx = 2;
 
 /*
@@ -107,7 +109,7 @@ char *termname = "st-256color";
 unsigned int tabspaces = 8;
 
 /* bg opacity */
-float alpha = 0.8;
+float alpha = 0.95;
 float alphaOffset = 0.0;
 float alphaUnfocus;
 
@@ -130,6 +132,22 @@ static const char *colorname[] = {
   "#b6bdca", /* base06 */
   "#be5046", /* base0F */
   "#c8ccd4", /* base07 */
+  /* "#282c34", /1* base00 *1/ */
+  /* "#a53b45", /1* base08 *1/ */
+  /* "#98c379", /1* base0B *1/ */
+  /* "#e5c07b", /1* base0A *1/ */
+  /* "#61afef", /1* base0D *1/ */
+  /* "#c96d6d", /1* base0E *1/ */
+  /* "#5274a1", /1* base0C *1/ */
+  /* "#C4C4C4", /1* base05, filenames *1/ */
+  /* "#545862", /1* base03 *1/ */
+  /* "#BD834D", /1* base09 *1/ */
+  /* "#a53b45", /1* base01 *1/ */
+  /* "#3e4451", /1* base02 *1/ */
+  /* "#666666", /1* base04, folder names, hostname, remote in git. *1/ */
+  /* "#b6bdca", /1* base06 *1/ */
+  /* "#be5046", /1* base0F *1/ */
+  /* "#c8ccd4", /1* base07 *1/ */
 
 	[255] = 0,
 
