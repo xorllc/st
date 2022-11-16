@@ -18,6 +18,7 @@ static int borderpx = 2;
  * 3: SHELL environment variable
  * 4: value of shell in /etc/passwd
  * 5: value of shell in config.h
+ * To change the st cursor color you need to edit the config.h file, in there you can find 'defaultcs' and 'defaultrcs' which define the normal and reverse cursor color. I've not tried the .vimrc escape sequence trick.
  */
 static char *shell = "/bin/sh";
 char *utmp = NULL;
@@ -165,7 +166,7 @@ static const char *colorname[] = {
  */
 unsigned int defaultfg = 7;
 unsigned int defaultbg = 0;
-unsigned int defaultcs = 13;
+unsigned int defaultcs = 1;
 unsigned int defaultrcs = 0;
 unsigned int background = 258;
 
