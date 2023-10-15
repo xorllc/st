@@ -189,7 +189,9 @@ static unsigned int rows = 24;
 /*
  * Default colour and shape of the mouse cursor
  */
-static unsigned int mouseshape = XC_xterm;
+//https://tronche.com/gui/x/xlib/appendix/b/
+static unsigned int mouseshape = XC_hand2;
+/* static unsigned int mouseshape = XC_xterm; */
 static unsigned int mousefg = 7;
 static unsigned int mousebg = 0;
 
