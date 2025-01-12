@@ -11,6 +11,11 @@ static char *font = "mono:pixelsize=18:antialias=true:autohint=true";
 static char *font2[] = { "JoyPixels:pixelsize=18:antialias=true:autohint=true" };
 static int borderpx = 2;
 
+/* disable bold, italic and roman fonts globally */
+int disablebold = 1;
+int disableitalic = 0;
+int disableroman = 0;
+
 /*
  * What program is execed by st depends of these precedence rules:
  * 1: program passed with -e
