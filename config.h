@@ -122,38 +122,24 @@ float alphaUnfocus;
 /* Terminal colors (16 first used in escape sequence) */
 static const char *colorname[] = {
 
-  "#282c34", /* base00 */
-  "#a53b45", /* base08 */
-  "#98c379", /* base0B */
-  "#e5c07b", /* base0A */
-  "#61afef", /* base0D */
-  "#c96d6d", /* base0E */
-  "#5274a1", /* base0C */
-  "#C4C4C4", /* base05, filenames */
-  "#545862", /* base03 */
-  "#BD834D", /* base09 */
-  "#a53b45", /* base01 */
-  "#3e4451", /* base02 */
-  "#666666", /* base04, folder names, hostname, remote in git. */
-  "#b6bdca", /* base06 */
-  "#be5046", /* base0F */
-  "#c8ccd4", /* base07 */
-  /* "#282c34", /1* base00 *1/ */
-  /* "#a53b45", /1* base08 *1/ */
-  /* "#98c379", /1* base0B *1/ */
-  /* "#e5c07b", /1* base0A *1/ */
-  /* "#61afef", /1* base0D *1/ */
-  /* "#c96d6d", /1* base0E *1/ */
-  /* "#5274a1", /1* base0C *1/ */
-  /* "#C4C4C4", /1* base05, filenames *1/ */
-  /* "#545862", /1* base03 *1/ */
-  /* "#BD834D", /1* base09 *1/ */
-  /* "#a53b45", /1* base01 *1/ */
-  /* "#3e4451", /1* base02 *1/ */
-  /* "#666666", /1* base04, folder names, hostname, remote in git. *1/ */
-  /* "#b6bdca", /1* base06 *1/ */
-  /* "#be5046", /1* base0F *1/ */
-  /* "#c8ccd4", /1* base07 *1/ */
+  /*https://observablehq.com/@tomblcode/base16-style-color-scheme-generator*/
+
+  "#5365a0",
+  "#697ab9",
+  "#7f90cd",
+  "#96a6de",
+  "#afbcec",
+  "#c8d2f6",
+  "#e3e9fc",
+  "#ffffff",
+  "#e6b0a8",
+  "#cec092",
+  "#add096",
+  "#97d6b3",
+  "#99cfd7",
+  "#b1beed",
+  "#d1aee8",
+  "#e7a9cb",
 
 	[255] = 0,
 
