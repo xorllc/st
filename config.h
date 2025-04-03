@@ -123,23 +123,23 @@ float alphaUnfocus;
 static const char *colorname[] = {
 
   /*https://observablehq.com/@tomblcode/base16-style-color-scheme-generator*/
+	[0] = "#282828", /* hard contrast: #1d2021 / soft contrast: #32302f */
+	[1] = "#cc241d", /* red     */
+	[2] = "#98971a", /* green   */
+	[3] = "#d79921", /* yellow  */
+	[4] = "#458588", /* blue    */
+	[5] = "#b16286", /* magenta */
+	[6] = "#689d6a", /* cyan    */
+	[7] = "#a89984", /* white   */
+	[8]  = "#928374", /* black   */
+	[9]  = "#fb4934", /* red     */
+	[10] = "#b8bb26", /* green   */
+	[11] = "#fabd2f", /* yellow  */
+	[12] = "#83a598", /* blue    */
+	[13] = "#d3869b", /* magenta */
+	[14] = "#8ec07c", /* cyan    */
+	[15] = "#ebdbb2", /* white   */
 
-  "#5365a0",
-  "#697ab9",
-  "#7f90cd",
-  "#96a6de",
-  "#afbcec",
-  "#c8d2f6",
-  "#e3e9fc",
-  "#ffffff",
-  "#e6b0a8",
-  "#cec092",
-  "#add096",
-  "#97d6b3",
-  "#99cfd7",
-  "#b1beed",
-  "#d1aee8",
-  "#e7a9cb",
 
 	[255] = 0,
 
